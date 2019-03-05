@@ -92,8 +92,6 @@ if __name__ == "__main__":
     try:
         userName = input("请输入你的学号:")
         password = input("请输入你的密码:")
-        # userName = '432522199810130017'
-        # password = '19981013'
         sign = SignIn(userName, password)
         sign.sendSignInfo()
     except BaseException as e:
